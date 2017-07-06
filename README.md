@@ -1,9 +1,9 @@
 # alis-web-vue
 Experimental UI for ALIS WEB data created using Vue.js
 
-# Goal 
+# What it does? 
 
-Create client UI for library. Whose allows see latest added books. 
+alis-web-vue is a web app which shown latest additions to a public library.
 
 ## Build Setup
 
