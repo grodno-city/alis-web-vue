@@ -1,7 +1,8 @@
 # alis-web-vue
-Experimental UI for ALIS WEB data created using Vue.js
 
-# What it does? 
+> UI for alis public libraries
+
+## What it does? 
 
 alis-web-vue is a web app which shown latest additions to a public library.
 
@@ -16,6 +17,15 @@ npm run dev
 
 # build for production with minification
 npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run all tests
+npm test
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
