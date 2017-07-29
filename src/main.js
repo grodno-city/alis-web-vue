@@ -1,6 +1,7 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
+import VueResource from 'vue-resource';
 import ElementUI from 'element-ui';
 import locale from 'element-ui/lib/locale';
 import lang from 'element-ui/lib/locale/lang/ru-RU';
@@ -10,6 +11,7 @@ import '../theme/index.css';
 
 locale.use(lang);
 
+Vue.use(VueResource);
 Vue.use(ElementUI);
 
 Vue.config.productionTip = false;
